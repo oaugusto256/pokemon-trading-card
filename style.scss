@@ -1,0 +1,199 @@
+$red: #fc9671;
+$yellow: #efc743;
+$golden: #eaac1c;
+
+$mada: 'Mada', sans-serif;
+$merriweather: 'Merriweather', serif;
+
+body {
+  font-family: $merriweather;
+  background-color: #424B54;
+  margin-top: 30px;
+}
+
+#card {  
+  background-color: $red;
+  margin: 0 auto;
+  
+  max-width: 325px;
+  min-width: 325px;
+  min-height: 525px;
+  
+  border-radius: 14px;
+  border: 15px solid $yellow;
+  
+  box-shadow: 7.5px 7.5px 5px #888888; 
+}
+
+#card-evolution {
+  font-size: 9px;
+  font-style: italic;
+  margin-left: 15px;
+  margin-right: 15px;
+  
+  border-bottom: 2px solid $golden;
+  
+  p {
+    margin-bottom: 2px;
+    font-weight: 700;
+    
+    span {
+      font-style: normal;
+      margin-left: 25px;
+      font-weight: 400;
+    }    
+  }
+}
+
+
+#card-title {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#pkm-name {  
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#pkm-life {
+  font-family: $mada;
+  text-align: right;
+  margin: 0 auto;
+  color: #e84206;
+  font-weight: 600;
+  font-size: 22.5px;
+}
+
+#pkm-image {
+  border: 5px solid $golden;
+  margin-left: 12.5px;
+  max-width: 290px;
+  height: auto;
+}
+
+#pkm-image-info {
+  text-align: center;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 600;
+  padding: 2.5px;
+  border-radius: 2px;
+  background-color: $golden;
+  margin-top: 2.5px;
+  margin-right: 25px;
+  margin-left: 30px;
+}
+
+#pkm-power-desc {
+  font-size: 11px;
+  margin-top: -25px;
+  margin-left: 20px;
+  max-width: 290px;
+}
+
+#pkm-power {
+  color: #2647a8;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+#pkm-skill {
+  display: flex;
+  
+  border-top: 1.25px solid black;
+  border-bottom: 1.25px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  font-size: 11px;
+  
+  #energy-box {
+    min-width: 47.5px;
+    margin-top: 7.5px;
+    margin-right: 7.5px;
+  }
+}
+
+.two-energy {
+  display: inline-block;
+}
+
+#skill-title {
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+#skill-desc {
+  margin-top: -3.5px;
+}
+
+#skill-power {
+  font-size: 23.5px;
+  margin-top: 10px;
+}
+
+#pkm-others {
+  margin-top: -7.5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  display: flex;
+  font-size: 10px;
+  font-weight: 900;
+  
+  text-align: center;
+  
+  .box {
+    margin-top: 10px;
+    width: 100%;
+    
+    p {
+      display: block;
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+  }
+}
+
+#pkm-desc {
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  font-size: 9.5px;
+  font-style: italic;
+  text-align: justify;
+  
+  p {
+    font-weight: 700;
+    border: 2px solid $golden;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2.5px;
+  }
+}
+
+#credits {
+  text-align: center;
+  margin-top: -5px;
+  font-weight: 700;
+  font-size: 6px;
+}
+
+.energy {
+  display: inline-block;
+  width: 18px;
+}
+
+footer {
+  font-family: $mada;
+  font-size: 14px;
+  color: #e3e7ed;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
